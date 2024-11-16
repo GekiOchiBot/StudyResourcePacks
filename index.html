@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Study Resource Packs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Textures</title>
 </head>
 <body>
-  <h1>Study Resource Packs</h1>
-  <p>ここではリソースパックをまとめています。</p>
-  <ul>
-    <li><a href="textures/">Textures</a></li>
-  </ul>
+    <div class="box" align="center">    
+        <h1 style="font-weight: bold; color: blue; ">Texturesへようこそ！</h1>
+    </div>
+    <div class="box" align="center">
+        <p class="javabox" onclick="MetalClicked()">Metal Textures</p>
+        <p class="bedrockbox" onclick="Stone()">Stone Textures</p>
+        <p class="bedrockbox" onclick="WoodClicked()">Wood Textures</p>
+    </div>
+    <script>
+        function MetalClicked() {
+            window.location.href = "https://gekiochibot.github.io/StudyResourcePacks/textures/metal.html";
+        }
+        function StoneClicked() {
+            window.location.href = "https://gekiochibot.github.io/StudyResourcePacks/textures/stone.html";
+        }
+        function WoodClicked() {
+            window.location.href = "https://gekiochibot.github.io/StudyResourcePacks/textures/wood.html";
+        }
+    </script>
 </body>
 </html>
